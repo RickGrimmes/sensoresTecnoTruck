@@ -3,7 +3,7 @@
 #include <HTTPClient.h>
 
 #define DHTPIN 22 // original  14
-#define DHTTYPE DHT11
+#define DHTTYPE DHT11 
 DHT dht(DHTPIN, DHTTYPE);
 
 const int numSensores = 8;
